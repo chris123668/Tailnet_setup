@@ -21,13 +21,10 @@ I'll be installing tailscale on my Iphone and my Docker Nextcloud container, so 
 
 ## Installation
 
-  - Step 1. go to the Tailscale download website <https://tailscale.com/download>, copy and paste the command into the container terminal.
-  ![Alt Text]().
+  - Step 1. go to the Tailscale download website <https://tailscale.com/download>, copy and paste the command into the container terminal.![Install page](TS_Install.png).
   - Step 2. Wait for Tailscale to download, then type tailscale up It will display a login URL. I'm going to check if tailscale is up and running with tailscale status 
-  - Step 3.Open the URL in your browser and authenticate. 
-  ![Alt Text]() 
-  I'll be signing in with my GitHub account but It doesn't matter which one you pick(but be mindful witch ever login method you choose, you will have to do the same on every device)
-  - Step 4. Now head to your app store and download the Tailscale app on your phone. Once it's install login and now you should have 2 devices on your tailnet![Admin page]()
+  - Step 3.Open the URL in your browser and authenticate. I'll be signing in with my GitHub account but It doesn't matter which one you pick(but be mindful witch ever login method you choose, you will have to do the same on every device)![Login page](/Pictures/TS_login.png) 
+  - Step 4. Now head to your app store and download the Tailscale app on your phone. Once it's install login and now you should have 2 devices on your tailnet![Admin page](/Pictures/TS_Admin.png)
   - Step 5. Now that our Tailnet is up and running, we should be able to access the service from our phone without having to be on local wifi. if your advertising a service that is open on a certain port make sure to add the port number on the end of the Tailscale MagicDNS (ex 100.80.64.60:8080).
   
 
